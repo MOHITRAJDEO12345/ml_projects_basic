@@ -1,0 +1,2 @@
+# ml_projects_basic
+BASIC ML_PROJECTS FOR PRACTICE
