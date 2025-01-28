@@ -5,3 +5,8 @@ from sklearn import linear_model
 
 df = pd.read_csv('heart_failure_prediction\heart_failure_clinical_records_dataset.csv')
 print(df.head())
+
+print(df.info())
+print(df.describe())
+print(df.columns)
+print(df.duplicated().sum())
