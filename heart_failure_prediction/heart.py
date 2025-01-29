@@ -7,6 +7,6 @@ df = pd.read_csv('heart_failure_prediction\heart_failure_clinical_records_datase
 print(df.head())
 
 print(df.info())
-print(df.describe())
+# print(df.describe())
 print(df.columns)
 print(df.duplicated().sum())
