@@ -28,17 +28,19 @@ df[['High', 'Low', 'Open', 'Close', 'Volume', 'Adj Close']] = scaler.fit_transfo
 
 # Visualizations
 # Scatter plot matrix
-sns.pairplot(df, diag_kind='kde')
-plt.show()
+# sns.pairplot(df, diag_kind='kde')
+# plt.show()
 
-# Box plot
-plt.figure(figsize=(12, 8))
-df.boxplot()
-plt.xticks(rotation=90)
-plt.show()
+# # Box plot
+# plt.figure(figsize=(12, 8))
+# df.boxplot()
+# plt.xticks(rotation=90)
+# plt.show()
 
-# Correlation matrix heatmap
-plt.figure(figsize=(10, 8))
-corr_matrix = df.corr()
-sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
-plt.show()
+# # Correlation matrix heatmap
+# plt.figure(figsize=(10, 8))
+# corr_matrix = df.corr()
+# sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+# plt.show()
+
+df.head()

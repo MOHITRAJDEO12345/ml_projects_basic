@@ -75,3 +75,5 @@ print(df.duplicated().sum())
 # corr_matrix = df.corr()
 # sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
 # plt.show()
+
+df.head()

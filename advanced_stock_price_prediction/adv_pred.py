@@ -47,3 +47,4 @@ print(test_df.head())
 # print(test_df.describe())
 
 print(train_df.columns)
+print(test_df.columns)

@@ -44,3 +44,5 @@ for column in ['creatinine_phosphokinase', 'platelets', 'serum_creatinine', 'ser
 # Histograms
 df.hist(figsize=(20, 15), bins=30)
 plt.show()
+
+df.head()
