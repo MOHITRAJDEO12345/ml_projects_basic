@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-wine_data = pd.read_csv('winequality-red.csv')
+wine_data = pd.read_csv('wine prediction\winequality-red.csv')
 
 wine_data.head()
 

@@ -15,7 +15,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 from sklearn import metrics
 
-car_dataset = pd.read_csv('/content/car data.csv')
+car_dataset = pd.read_csv('car_price_pred\car data.csv')
 
 car_dataset.head()
 

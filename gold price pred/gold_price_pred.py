@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 
-gold_data = pd.read_csv('/content/gld_price_data.csv')
+gold_data = pd.read_csv('gold price pred\gld_price_data.csv')
 
 gold_data.head()
 

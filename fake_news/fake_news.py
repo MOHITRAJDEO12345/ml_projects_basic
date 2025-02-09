@@ -22,7 +22,7 @@ nltk.download('stopwords')
 
 print(stopwords.words('english'))
 
-news_dataset = pd.read_csv('train.csv')
+news_dataset = pd.read_csv('fake_news\train.csv')
 
 news_dataset.shape
 

@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-sonar_data = pd.read_csv('Copy of sonar data.csv', header=None)
+sonar_data = pd.read_csv('rock_mine_pred\Copy of sonar data.csv', header=None)
 
 sonar_data.head()
 

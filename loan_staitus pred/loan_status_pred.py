@@ -13,12 +13,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
+from sklearn.model_selection import train_test_split
 
 from sklearn import svm
 
 from sklearn.metrics import accuracy_score
 
-loan_dataset = pd.read_csv('loan.csv')
+loan_dataset = pd.read_csv('loan_staitus pred\loan.csv')
 
 loan_dataset.head()
 

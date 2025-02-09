@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1egYJDCsgDOJj6zuiJ0ZP5KeltSWBDXxX
 """
 
-import pandas as numpy
+import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-diabetes_data = pd.read_csv('diabetes.csv')
+diabetes_data = pd.read_csv('diabetes_prediction\diabetes.csv')
 
 diabetes_data.head()
 
